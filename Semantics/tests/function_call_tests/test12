@@ -1,0 +1,6 @@
+/* Testing that predefined global function 'input()' does not throw an error (should be allowed) */
+
+void main (void) {
+    int x;
+    x = input(); 
+}

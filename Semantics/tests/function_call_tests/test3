@@ -1,0 +1,9 @@
+/* Testing incorrect function call parameters; too many arguments (should throw error) */ 
+
+void foo ( int x, int y ) { }
+void main ( void ) {
+    int z;
+    int w;
+    int o;
+    foo(z, w, o);
+}

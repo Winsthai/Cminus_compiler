@@ -1,0 +1,4 @@
+/* Testing that int functions can return integers (should be allowed) */
+
+int foo ( void ) { return 2; }
+void main ( void ) { }

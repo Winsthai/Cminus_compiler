@@ -1,0 +1,4 @@
+/* Testing binary operation with different types (should throw mismatch error) */
+void main ( void ) {
+    main() + 1;
+}

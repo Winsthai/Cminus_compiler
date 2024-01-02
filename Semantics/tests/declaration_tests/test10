@@ -1,0 +1,6 @@
+/* Testing that array declaration cannot be of type void (should throw error) */
+
+void main (void) {
+    int num;
+    void test[12];
+}

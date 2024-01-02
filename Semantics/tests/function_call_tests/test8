@@ -1,0 +1,6 @@
+/* Testing incorrect function call syntax (should throw error) */
+
+int x;
+int main(void) {
+    x() + 1;
+}

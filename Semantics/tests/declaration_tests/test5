@@ -1,0 +1,6 @@
+/* Testing multiple same declarations in parameters (should throw error) */
+
+int test (int x, int x) {
+}
+
+void main (void) {}

@@ -1,0 +1,7 @@
+/* Testing correct function call parameters with arrays; passing in an array by reference (should be allowed) */ 
+
+void foo ( int bar[] ) { }
+void main ( void ) {
+    int x[12];
+    foo(x);
+}

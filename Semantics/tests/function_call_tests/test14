@@ -1,0 +1,6 @@
+/* Testing function call with integer directly passed in (should be allowed) */
+
+int test (int x) {}
+void main (void) {
+    test(2); 
+}

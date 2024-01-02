@@ -1,0 +1,18 @@
+/* Testing different compound statement scopes (should be allowed) */
+
+int x;
+void main ( void ) {
+    {
+        int x;
+        {
+            int x[10];
+            x[2] = 4;
+        }
+        x = 5;
+    }
+    x = 2;
+    {int x; x = 7;}
+    if (x == 1) {x = 5;}
+    else x = 3;
+    x = 10;
+}

@@ -1,0 +1,6 @@
+/* Testing function calls of correct type (should be allowed) */
+
+int test (void) {}
+void main (void) {
+    test() + 1;
+}

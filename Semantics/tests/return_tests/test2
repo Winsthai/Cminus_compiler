@@ -1,0 +1,4 @@
+/* Testing that int functions cannot return nothing (should throw error) */
+
+int foo ( void ) { return; }
+void main ( void ) { }

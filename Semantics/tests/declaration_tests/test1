@@ -1,0 +1,6 @@
+/* Testing use before declaration (should cause error) */
+void foo ( void ) {
+    x = 1;
+}
+int y;
+void main ( void ) { }

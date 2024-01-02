@@ -1,0 +1,10 @@
+/* Testing indexing something that isn't an array (should throw error) */
+
+int test (int x) {
+    int y;
+    x[1] = 2;
+}
+
+void main (void) {
+
+}

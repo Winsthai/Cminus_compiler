@@ -1,0 +1,7 @@
+/* Testing incorrect function call parameters (should throw error) */ 
+
+void foo ( void ) { }
+void main ( void ) {
+    int z;
+    foo(z);
+}

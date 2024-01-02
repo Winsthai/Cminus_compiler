@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "test": "cpp",
+        "test7": "cpp",
+        "test9": "cpp",
+        "test12": "c",
+        "test_program": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}

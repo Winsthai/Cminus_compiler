@@ -1,0 +1,5 @@
+/* Testing main function error; main function is not the last declaration */
+
+void main ( void ) {
+}
+int x;

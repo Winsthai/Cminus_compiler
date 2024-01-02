@@ -1,0 +1,8 @@
+/* Testing correct function call, arguments are in proper order (should be allowed) */ 
+
+void foo ( int bar[], int y, int foo[] ) { }
+void main ( void ) {
+    int x[12];
+    int y;
+    foo(x, y, x);
+}

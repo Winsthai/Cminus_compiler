@@ -1,0 +1,6 @@
+/* Testing redeclaration in same scope (should throw error) */
+
+void main ( void ) {
+    int x;
+    int x;
+}
