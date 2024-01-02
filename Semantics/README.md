@@ -1,11 +1,13 @@
 # Scanner & Parser Using Flex and Bison + Semantic Analyzer
 
-### To execute the provided executable on a file "test_file", run:
-`./parser <test_file>`
+## To execute the provided executable on a file "test_file", run:
+`./parser <test_file>` or `parser <test_file>`
 
-### The output of the program is similar to the output of the reference compiler, and thus can be interpreted in the same way. It also contains additional semantic information for nodes in the AST.
+This prints the program in the form of an abstract syntax tree which also contains additional semantic information (including scope and type) for nodes in the AST.
 
-### If you want to generate the executable (and the other utility files), follow the steps below
+### If you want to generate the executable (and the other utility files included), follow the steps below
+
+### *Note: Requires GNU Bison (version 3.8.2+) and flex (version 2.6.4+) to be installed*
 
 ### For generating the scanner, run:
 `flex --header-file=scanner.h -o scanner.c scanner.l`
